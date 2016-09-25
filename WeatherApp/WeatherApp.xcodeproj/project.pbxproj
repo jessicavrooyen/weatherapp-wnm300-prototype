@@ -14,6 +14,7 @@
 		4C4743571CC683FE00DD58FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4743551CC683FE00DD58FF /* LaunchScreen.storyboard */; };
 		4C4743621CC683FE00DD58FF /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4743611CC683FE00DD58FF /* WeatherAppTests.swift */; };
 		4C47436D1CC683FE00DD58FF /* WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47436C1CC683FE00DD58FF /* WeatherAppUITests.swift */; };
+		4C8D14A91CC68CD600C9CFD3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8D14A81CC68CD600C9CFD3 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4C4743681CC683FE00DD58FF /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C47436C1CC683FE00DD58FF /* WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITests.swift; sourceTree = "<group>"; };
 		4C47436E1CC683FE00DD58FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8D14A81CC68CD600C9CFD3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4C4743531CC683FE00DD58FF /* Assets.xcassets */,
 				4C4743551CC683FE00DD58FF /* LaunchScreen.storyboard */,
 				4C4743581CC683FE00DD58FF /* Info.plist */,
+				4C8D14A81CC68CD600C9CFD3 /* TableViewController.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C47434F1CC683FE00DD58FF /* ViewController.swift in Sources */,
+				4C8D14A91CC68CD600C9CFD3 /* TableViewController.swift in Sources */,
 				4C47434D1CC683FE00DD58FF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +491,7 @@
 				4C4743731CC683FE00DD58FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C4743741CC683FE00DD58FF /* Build configuration list for PBXNativeTarget "WeatherAppTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				4C4743761CC683FE00DD58FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C4743771CC683FE00DD58FF /* Build configuration list for PBXNativeTarget "WeatherAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				4C4743791CC683FE00DD58FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
